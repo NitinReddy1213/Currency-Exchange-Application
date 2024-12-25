@@ -24,10 +24,13 @@ This project solely involves development using HTML,CSS,PYTHON 3.13.1,FLASK(jinj
 
 <br>
 
-This project mainly contains 3 functionalities 
+This project mainly contains 3 functionalities <br>
 1)The project can exchange currency depending on the live exchange rates available <br>
 2)This project can exchange personally defined currency rates<br>
 3)This project can accept feedbacks from customers and store in a mongodb client database.<br>
+
+<br>
+
 
 
 
