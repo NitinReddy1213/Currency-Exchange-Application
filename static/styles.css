@@ -1,0 +1,163 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed; /* Fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it's above other content */
+  height: 60px; /* Set height for navbar */
+  display: flex;
+  justify-content: space-between; /* Space between left and right content */
+  padding: 0 20px; /* Padding to keep links away from edges */
+  align-items: center; /* Vertically center links */
+}
+
+.topnav a {
+  color: #f2f2f2;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Basic page setup */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light background */
+  margin: 0;
+  padding-top: 70px; /* Space to prevent overlap with navbar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Full viewport height */
+  flex-direction: column; /* To stack the content vertically */
+}
+
+/* Wrapper for centering the form */
+
+.Repeat{
+
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom:100px;
+    max-width: 800px; /* Max width for form */
+    padding: 60px;
+    background-color: white;
+    border-color: #333;
+    border-radius: 15px;
+    text-align: left;
+    padding :3%;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 800px; /* Max width for form */
+  padding: 60px;
+  background-color: white;
+  border-radius: 7px;
+  border-color: #333;
+  text-align: left;
+  padding :3%;
+  margin-top:100px;
+  margin-bottom: -30px;
+}
+.result_class {
+  margin-top:30px;
+}
+
+/* Form title */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form group (label and input/select) container */
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Styling labels */
+label {
+  font-size: 14px;
+  color: #333;
+  width: 30%; /* Set width for label to align it with the input/select */
+  margin-right: 10px; /* Space between label and input */
+}
+
+/* Styling input fields and select */
+input[type="number"], select {
+  width: 70%; /* Set width for the dropdown/input */
+  padding: 10px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Styling the submit button */
+button {
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* Full width */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 200px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Space between the links */
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
+
