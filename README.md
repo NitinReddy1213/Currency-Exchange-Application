@@ -4,6 +4,7 @@ This project is an standalone application which solely focuses on exchanging the
 which are accesed through an external API provider named Currency_Rate API exchange (https://www.exchangerate-api.com/)
 This project solely involves development using HTML,CSS,PYTHON 3.13.1,FLASK(jinja,render), and database client as mongodb.
 
+├── .gitignore              # (Optional) Specifies files and directories to ignore in Git
 ├── README.md               # Description of your project
 ├── app.py                  # Main Python application file
 ├── dependencies.txt        # List of dependencies for the project
@@ -20,6 +21,8 @@ This project solely involves development using HTML,CSS,PYTHON 3.13.1,FLASK(jinj
 │   ├── privacypolicy.html
 │   ├── termsofuse.html
 └── venv/                   # Python virtual environment (add to .gitignore)
+
+
 
 This project mainly contains 3 functionalities 
 1)The project can exchange currency depending on the live exchange rates available 
