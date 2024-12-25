@@ -3,6 +3,7 @@ Welcome to Currency Exchange Application powered by Flask,Exchange-Rate-API,mong
 This project is an standalone application which solely focuses on exchanging the currency measure using live exchange rates <br>
 which are accesed through an external API provider named Currency_Rate API exchange (https://www.exchangerate-api.com/)<br>
 This project solely involves development using HTML,CSS,PYTHON 3.13.1,FLASK(jinja,render), and database client as mongodb.<br>
+This Application has the capability 161 different currencies for converting to one another.<br> 
 
 ├── .gitignore              # Specifies files and directories to ignore in Git<br>
 ├── README.md               # Description of your project<br>
