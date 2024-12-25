@@ -4,23 +4,23 @@ This project is an standalone application which solely focuses on exchanging the
 which are accesed through an external API provider named Currency_Rate API exchange (https://www.exchangerate-api.com/)
 This project solely involves development using HTML,CSS,PYTHON 3.13.1,FLASK(jinja,render), and database client as mongodb.
 
-├── .gitignore              # (Optional) Specifies files and directories to ignore in Git<br>
-├── README.md               # Description of your project
-├── app.py                  # Main Python application file
-├── dependencies.txt        # List of dependencies for the project
-├── static/                 # Directory for CSS and other static files
-│   ├── aboutus.css
-│   ├── feedbackform.css
-│   ├── privacypolicy.css
-│   ├── styles.css          # Main CSS file for shared styles
-│   ├── termsofuse.css
-├── templates/              # Directory for HTML templates
-│   ├── aboutus.html
-│   ├── feedbackform.html
-│   ├── main.html
-│   ├── privacypolicy.html
-│   ├── termsofuse.html
-└── venv/                   # Python virtual environment (add to .gitignore)
+├── .gitignore              # Specifies files and directories to ignore in Git<br>
+├── README.md               # Description of your project<br>
+├── app.py                  # Main Python application file<br>
+├── dependencies.txt        # List of dependencies for the project<br>
+├── static/                 # Directory for CSS and other static files<br>
+│   ├── aboutus.css<br>
+│   ├── feedbackform.css<br>
+│   ├── privacypolicy.css<br>
+│   ├── styles.css          # Main CSS file for shared styles<br>
+│   ├── termsofuse.css<br>
+├── templates/              # Directory for HTML templates<br>
+│   ├── aboutus.html<br>
+│   ├── feedbackform.html<br>
+│   ├── main.html<br>
+│   ├── privacypolicy.html<br>
+│   ├── termsofuse.html<br>
+└── venv/                   # Python virtual environment <br>
 
 
 
