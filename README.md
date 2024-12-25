@@ -1,6 +1,6 @@
 Welcome to Currency Exchange Application powered by Flask,Exchange-Rate-API,mongoDB
 
-This projecy is an standalone application which solely focuses on exchanging the currency measure using live exchange rates 
+This project is an standalone application which solely focuses on exchanging the currency measure using live exchange rates 
 which are accesed through an external API provider named Currency_Rate API exchange (https://www.exchangerate-api.com/)
 This project solely involves development using HTML,CSS,PYTHON 3.13.1,FLASK(jinja,render), and database client as mongodb.
 
