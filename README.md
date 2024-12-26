@@ -24,6 +24,8 @@ This Application has the capability 161 different currencies for converting to o
 └── venv/                   # Python virtual environment <br>
 
 <br>
+(https://github.com/user-attachments/assets/58190312-56b3-426f-ab34-79788efebc27)
+<br> 
 
 This project mainly contains 3 functionalities <br>
 1)The project can exchange currency depending on the live exchange rates available <br>
