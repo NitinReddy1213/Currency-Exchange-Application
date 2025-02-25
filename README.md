@@ -1,39 +1,71 @@
-Welcome to Currency Exchange Application powered by Flask,Exchange-Rate-API,mongoDB<br>
-<br>
-This project is an standalone application which solely focuses on exchanging the currency measure using live exchange rates <br>
-which are accesed through an external API provider named Currency_Rate API exchange (https://www.exchangerate-api.com/)<br>
-This project solely involves development using HTML,CSS,PYTHON 3.13.1,FLASK(jinja,render), and database client as mongodb.<br>
-This Application has the capability 161 different currencies for converting to one another.<br> 
+# Currency Exchange Application
 
-├── .gitignore              # Specifies files and directories to ignore in Git<br>
-├── README.md               # Description of your project<br>
-├── app.py                  # Main Python application file<br>
-├── dependencies.txt        # List of dependencies for the project<br>
-├── static/                 # Directory for CSS and other static files<br>
-│   ├── aboutus.css<br>
-│   ├── feedbackform.css<br>
-│   ├── privacypolicy.css<br>
-│   ├── styles.css          # Main CSS file for shared styles<br>
-│   ├── termsofuse.css<br>
-├── templates/              # Directory for HTML templates<br>
-│   ├── aboutus.html<br>
-│   ├── feedbackform.html<br>
-│   ├── main.html<br>
-│   ├── privacypolicy.html<br>
-│   ├── termsofuse.html<br>
-└── venv/                   # Python virtual environment <br>
+## Overview
+Currency Exchange Application is a Flask-based web application that allows users to convert currencies, view exchange rates, and access additional financial resources like terms of use and privacy policies.
 
-<br>
-(https://github.com/user-attachments/assets/58190312-56b3-426f-ab34-79788efebc27)
-<br> 
+## Features
+- Convert currencies with real-time exchange rates
+- User-friendly interface
+- Feedback form for user inquiries
+- Informational pages (About Us, Privacy Policy, Terms of Use)
 
-This project mainly contains 3 functionalities <br>
-1)The project can exchange currency depending on the live exchange rates available <br>
-2)This project can exchange personally defined currency rates<br>
-3)This project can accept feedbacks from customers and store in a mongodb client database.<br>
+## Project Structure
+```
+nitinreddy1213-currency-exchange-application/
+├── README.md
+├── app.py
+├── dependencies.txt
+├── static/
+│   ├── aboutus.css
+│   ├── feedbackform.css
+│   ├── privacypolicy.css
+│   ├── styles.css
+│   └── termsofuse.css
+└── templates/
+    ├── aboutus.html
+    ├── feedbackform.html
+    ├── main.html
+    ├── privacypolicy.html
+    └── termsofuse.html
+```
 
-<br>
+## Installation
 
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/nitinreddy1213/currency-exchange-application.git
+   cd currency-exchange-application
+   ```
 
+2. **Create a Virtual Environment (Optional but Recommended)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. **Install Dependencies**
+   ```bash
+   pip install -r dependencies.txt
+   ```
+
+4. **Run the Application**
+   ```bash
+   flask run
+   ```
+
+5. **Access the App**
+   - Open your browser and go to `http://127.0.0.1:5000`
+
+## Usage
+- Convert currencies quickly with an intuitive interface.
+- Submit feedback using the feedback form.
+- Access important pages such as About Us, Privacy Policy, and Terms of Use.
+
+## Technologies Used
+- **Backend:** Python, Flask
+- **Frontend:** HTML, CSS
+
+## Contributing
+Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request.
 
 
